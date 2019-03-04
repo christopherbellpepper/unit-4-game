@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal Collector | jQuery Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>Crystal Collector</h1>
+    </header>
+
+    <div class="container" id="instructions">
+      <h2>Instructions:</h2>
+      <ol>
+        <li>You will be given a random number at the start of the game.</li>
+        <li>There are four crystals below. By clicking on a crystal, you wil add aspecific amount of points to your total score.</li>
+        <li>The value of each crystal is hidden from you until you click on it.</li>
+        <li>Everytime a new game starts, the value of each Crystal is changed.</li>
+        <li>You win the game by matching your total score to the random number set at the begining of each game.</li>
+        <li>You lose if you fall short or go over.</li>
+      </ol>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <button id="blue-gem" type="button"><img src="assets/images/blue-gem.jpg"></button>
+        </div>
+        <div class="col-sm-3">
+          <button id="green-gem" type="button"><img src="assets/images/green-gem.jpg"></button>
+        </div>
+        <div class="col-sm-3">
+          <button id="yellow-gem" type="button"><img src="assets/images/yellow-gem.jpg"></button>
+        </div>
+        <div class="col-sm-3">
+          <button id="pink-gem" type="button"><img src="assets/images/pink-gem.jpg"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4" id="score-to-match">
+          <h1>Score to Match:</h1>
+        </div>
+        <div class="col-sm-4" id="your-score">
+          <h1>Your Score:</h1>
+        </div>
+        <div class="col-sm-4" id="wins-losses">
+          <h1>Wins/Losses:</h1>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <!-- <<<<<javaScript Links>>>>> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script rel="javascript" type="text/javascript" src="assets/javaScript/game.js"></script>
+</html>
