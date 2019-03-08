@@ -1,100 +1,87 @@
 body {
-    max-width: 960px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 24px;
-    background-color: #dddddd;
+  max-width: 960px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  background-color: #eeeeee;
 }
 
 #header {
-    font-size: 50px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid;
-    border-color: #777777;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-color: #777777;
 }
 
 #instructions {
-    color: whitesmoke;
-    background-color: #777777;
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 2px solid;
-    border-color: black;
+  color: whitesmoke;
+  background-color: #777777;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-color: black;
 }
 
-#score-to-match {
-    height: 250px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    border: 2px solid;
-    border-color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.col-sm-4 {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#your-score {
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#wins-losses {
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    border: 2px solid;
-    border-color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.col-sm-2 {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #blue-gem {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
 }
 
 #green-gem {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
 }
 
 #yellow-gem {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
 }
 
 #pink-gem {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
 }
+
